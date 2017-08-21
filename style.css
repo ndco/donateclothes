@@ -1,9 +1,45 @@
 .logo {
-	display: inline-block;
-	background-color: lightgreen;
-	padding: 10px;
-	font-size: 50px;
-	font-weight: bold;
-	font-family: arial, serif;
-	color: white;
+    float:left;
+    background-color: lightgreen;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: arial, serif;
+    
 }
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav ul  {
+    float: right;
+    margin: 0;
+}
+
+.main-nav ul li{
+     display: inline-block;
+     text-align: center;
+     margin-left: 15px;
+
+
+}
+
+
+.main-nav li {
+     float: left;
+     margin-right: 40px;
+     font-size: 25px;
+     letter-spacing: 2px;
+     line-height: 78px;
+}
+
+.main-nav li a {
+    padding: 5px;
+    background: lightgreen;
+    text-decoration: none;
+    color: white;
+}
+
+
